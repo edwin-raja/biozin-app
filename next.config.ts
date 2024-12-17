@@ -1,13 +1,14 @@
-import type { NextConfig } from "next";
 
-cconst isProd = process.env.NODE_ENV === 'production';
+
+const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
   reactStrictMode: true,
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: isProd ? '/your-repository-name/' : '',
-  basePath: isProd ? '/your-repository-name' : '',
+  assetPrefix: isProd ? '/biobiz-app/' : '',
+  basePath: isProd ? '/biobiz-app' : '',
   output: 'export'
 };
 
+export default nextConfig;
