@@ -27,7 +27,7 @@ const services = [
 
 const Services = () => {
   const sectionRef = useRef(null)
-  const cardsRef = useRef([])
+  const cardsRef = useRef<(HTMLDivElement | null)[]>([])
 
   useEffect(() => {
     const section = sectionRef.current
