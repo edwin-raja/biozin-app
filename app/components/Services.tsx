@@ -57,7 +57,9 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={service.title}
-              ref={el => cardsRef.current[index] = el}
+              ref={el => {
+                cardsRef.current[index] = el;
+              }}
               className="bg-white rounded-lg shadow-lg p-6 transition-transform duration-300 hover:scale-105"
             >
               <service.icon className="w-12 h-12 text-green-600 mb-4" />
