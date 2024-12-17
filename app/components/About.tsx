@@ -52,7 +52,7 @@ const About = () => {
             </p>
           </div>
           <div ref={imageRef} className="md:w-5/12 md:pl-8"> {/* Update 3 */}
-            <img src="/images/about-image.jpg" alt="BioBiz Impact Areas" className="rounded-lg shadow-lg" />
+            <img src="biobizz.jpg"  alt="BioBiz Impact Areas" className="rounded-lg shadow-lg" />
           </div>
         </div>
       </div>
@@ -61,3 +61,4 @@ const About = () => {
 }
 
 export default About
+

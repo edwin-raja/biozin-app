@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
     <section className="relative h-screen flex items-center justify-center text-white">
-      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://via.placeholder.com/1920x1080')" }}></div>
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('boat.jpg" }}></div>
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="relative z-10 text-center px-4">
         <h1 ref={headlineRef} className="text-4xl md:text-6xl font-bold mb-4">

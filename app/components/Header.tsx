@@ -23,11 +23,11 @@ const Header = () => {
         <div>
           <Link href="/" className="flex items-center">
             <Image
-              src="/logo.png"
+              src="biobiz-logo.png"
               alt="BioBiz Logo"
-              width={40}
-              height={40}
-              className="mr-2"
+              width={35}
+              height={35}
+              className="rounded-full"
             />
             <span className="text-3xl font-bold text-green-800">BioBiz</span>
           </Link>
